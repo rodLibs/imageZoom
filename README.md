@@ -62,10 +62,11 @@ dependencies {
 <pre><code>
  imgZoom.setImageBitmap(myBitmap);
 </code></pre>
-Or
+##### Or
 <pre><code>
  imgZoom.setImageResource(R.drawable.myImage);
 </code></pre>
+</br>
 
 
 #### .xml
