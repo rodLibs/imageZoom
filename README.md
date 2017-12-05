@@ -66,8 +66,7 @@ dependencies {
 <pre><code>
  imgZoom.setImageResource(R.drawable.myImage);
 </code></pre>
-
-  
+</br>
 
 
 #### .xml
