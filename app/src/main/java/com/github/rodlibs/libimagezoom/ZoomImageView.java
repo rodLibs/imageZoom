@@ -125,6 +125,7 @@ public class ZoomImageView extends android.support.v7.widget.AppCompatImageView{
         });
     }
 
+
     @Override
     public void setImageResource(@DrawableRes int resId) {
         super.setImageResource(resId);
