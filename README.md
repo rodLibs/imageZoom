@@ -1,8 +1,16 @@
-<img src="logss.png" alt="log">
+
+<table border="0">
+<tr>
+<td><img src="image1.png" height="500" width="300"></td>
+<td><img src="image2.png" height="500" width="300"></td>
+</tr>
+</table>
+
+
 
 
 # Sample Project
-You can download the latest sample APK from this repo here: https://link
+You can download the latest sample APK from this repo here: https://github.com/rodLibs/imageZoom/blob/master/sample/sample.apk
 </br>
 </br>
 
