@@ -57,7 +57,14 @@ dependencies {
 #### .java
 <pre><code>
  ZoomImageView imgZoom = (ZoomImageView) findViewById(R.id.imageZoom);
+</code></pre>
+
+<pre><code>
  imgZoom.setImageBitmap(myBitmap);
+</code></pre>
+###### Or
+<pre><code>
+ imgZoom.setImageResource(R.drawable.myImage);
 </code></pre>
 
 
