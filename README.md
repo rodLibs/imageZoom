@@ -59,7 +59,6 @@ dependencies {
  ZoomImageView imgZoom = (ZoomImageView) findViewById(R.id.imageZoom);
  imgZoom.setImageBitmap(myBitmap);
 </code></pre>
-</br>
 
 
 #### .xml
