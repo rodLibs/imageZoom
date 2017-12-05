@@ -23,7 +23,7 @@ The Gradle dependency is available via maven. maven is the default Maven reposit
 <pre><code>
 repositories {
     maven {
-        
+        url  "https://dl.bintray.com/rod120/imageZoom" 
     }
 }
 </code></pre>
@@ -35,7 +35,7 @@ repositories {
 #### Gradle:
 <pre><code>
 dependencies {
-    
+    compile 'com.github.rodlibs:imageZoom:1.0'
 }
 </code></pre>
 
@@ -44,8 +44,8 @@ dependencies {
 ```xml
  <dependency>
   <groupId>com.github.rodlibs</groupId>
-  <artifactId>liblogger</artifactId>
-  <version>0.0.1</version>
+  <artifactId>imageZoom</artifactId>
+  <version>1.0</version>
   <type>pom</type>
 </dependency>
 ```
