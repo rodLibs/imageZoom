@@ -16,10 +16,10 @@ android {
         targetSdkVersion 25
     }
     buildTypes {
-        release {
+         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
+         }
     }
 }
 
@@ -37,5 +37,3 @@ dependencies {
 }
 
 apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
-
-
