@@ -1,12 +1,4 @@
-
-<table border="0">
-<tr>
-<td><img src="image1.png" height="500" width="300"></td>
-<td><img src="image2.png" height="500" width="300"></td>
-</tr>
-</table>
-
-
+<img src="zoom.gif" height="550" width="430">
 
 
 # Sample Project
@@ -65,8 +57,16 @@ dependencies {
 #### .java
 <pre><code>
  ZoomImageView imgZoom = (ZoomImageView) findViewById(R.id.imageZoom);
+</code></pre>
+
+<pre><code>
  imgZoom.setImageBitmap(myBitmap);
 </code></pre>
+###### Or
+<pre><code>
+ imgZoom.setImageResource(R.drawable.myImage);
+</code></pre>
+</br>
 
 
 #### .xml
