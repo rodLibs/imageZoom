@@ -71,7 +71,7 @@ dependencies {
 
 #### .kt
 <pre><code>
-###### val imgZoom = findViewById<ZoomImageView>(R.id.imageZoom)
+val imgZoom = findViewById < ZoomImageView > (R.id.imageZoom)
 </code></pre>
 
 <pre><code>
