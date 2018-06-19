@@ -69,6 +69,21 @@ dependencies {
 </br>
 
 
+#### .kt
+<pre><code>
+val imgZoom = findViewById< ZoomImageView >(R.id.imageZoom)
+</code></pre>
+
+<pre><code>
+ imgZoom.setImageBitmap(myBitmap);
+</code></pre>
+###### Or
+<pre><code>
+imgZoom.setImageResource(R.drawable.myImage);
+</code></pre>
+</br>
+
+
 #### .xml
 ```xml
  <com.github.rodlibs.libimagezoom.ZoomImageView
