@@ -35,7 +35,7 @@ repositories {
 #### Gradle:
 <pre><code>
 dependencies {
-    compile 'com.github.rodlibs:imageZoom:1.0'
+    compile 'com.github.rodlibs:imageZoom:1.2'
 }
 </code></pre>
 
@@ -45,7 +45,7 @@ dependencies {
  <dependency>
   <groupId>com.github.rodlibs</groupId>
   <artifactId>imageZoom</artifactId>
-  <version>1.0</version>
+  <version>1.2</version>
   <type>pom</type>
 </dependency>
 ```
