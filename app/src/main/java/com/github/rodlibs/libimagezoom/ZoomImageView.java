@@ -5,14 +5,14 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.graphics.PointF;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
 
 
-public class ZoomImageView extends android.support.v7.widget.AppCompatImageView{
+public class ZoomImageView extends androidx.appcompat.widget.AppCompatImageView{
     Matrix matrix = new Matrix();
 
     static final int NONE = 0;
